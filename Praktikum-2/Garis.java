@@ -1,7 +1,7 @@
 /* Nama file    : Garis.java
  * Deskripsi    : Atribut dan Methode Garis
  * Pembuat      : Muhammad Irfan Irsyad / 24060123130085
- * Tanggal      : 23-02-2025
+ * Tanggal      : 01-03-2025
 */
 
 public class Garis {

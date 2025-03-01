@@ -1,7 +1,7 @@
 /* Nama file    : MGaris.java
  * Deskripsi    : Main dari class Garis
  * Pembuat      : Muhammad Irfan Irsyad / 24060123130085
- * Tanggal      : 23-02-2025
+ * Tanggal      : 01-03-2025
 */
 public class MGaris {
     public static void main(String[] args) {

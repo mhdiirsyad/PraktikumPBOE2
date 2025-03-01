@@ -1,3 +1,9 @@
+/*Nama file     : Kendaraan.java
+ * Deskripsi    : Atribut dan metode class kendaraan
+ * Pembuat      : Muhammad Irfan Irsyad / 24060123130085
+ * Tanggal      : 01-03-2025
+ */
+
 public class Kendaraan {
     /*Atribut */
     private String noPlat;
@@ -23,7 +29,7 @@ public class Kendaraan {
 
     //Mengeset jenis kendaraan
     public void setJenis (String jenis){
-        if(jenis.toLowerCase()=="motor" || jenis.toLowerCase()=="mobil"){
+        if(jenis.toLowerCase() == "motor" || jenis.toLowerCase()=="mobil"){
             this.jenis = jenis;
         }else{
             System.out.println("Jenis kendaraan harus motor atau mobil");

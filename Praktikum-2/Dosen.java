@@ -1,3 +1,9 @@
+/*Nama file     : Dosen.java
+ * Deskripsi    : Atribut dan metode kelas Dosen
+ * Pembuat      : Muhammad Irfan Irsyad / 24060123130085
+ * Tanggal      : 01-03-2025
+ */
+
 public class Dosen {
     /*Atribut*/
     private String nip;

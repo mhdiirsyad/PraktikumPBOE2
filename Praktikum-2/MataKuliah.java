@@ -1,3 +1,9 @@
+/*Nama file     : Matakuliah.java
+ * Deskripsi    : Atribut dan Metode class Matakuliah
+ * Pembuat      : Muhammad Irfan Irsyad / 24060123130085
+ * Tanggal      : 01-03-2025
+ */
+
 public class MataKuliah {
     /*Atribut */
     private String idMatkul;

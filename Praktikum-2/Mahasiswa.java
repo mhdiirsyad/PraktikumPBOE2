@@ -1,4 +1,10 @@
 
+/*Nama file     : Mahasiswa.java
+ * Deskripsi    : Atribut dan Metode class Mahasiswa
+ * Pembuat      : Muhammad Irfan Irsyad / 24060123130085
+ * Tanggal      : 01-03-2025
+ */
+
 import java.util.ArrayList;
 
 public class Mahasiswa {
@@ -105,6 +111,7 @@ public class Mahasiswa {
         System.out.println("Prodi\t: " + this.getProdi());
     }
 
+    //Menampilkan data lengkap mahasiswa
     public void printDetailMhs() {
         this.printMhs();
         System.out.println("Daftar matkul : ");
@@ -114,4 +121,6 @@ public class Mahasiswa {
         System.out.println("Dosen Wali\t: " + getDosenWali().getNama());
         System.out.println("Kendaraan\t: " + getKendaraan().getJenis());
     }
+
+    //end class mahasiswa
 }
