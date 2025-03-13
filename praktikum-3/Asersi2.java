@@ -4,9 +4,11 @@
 * Tanggal	: 06-03-2025
 */
 
-class Lingkaran {
+// package praktikum-3;
+
+class Circle {
     private double r;
-    public Lingkaran(double r){
+    public Circle(double r){
         this.r = r;
     }
 
@@ -20,7 +22,7 @@ public class Asersi2 {
     public static void main(String[] args) {
         double r = 0;
         assert (r>0): "Jari-jari tidak boleh 0!!";
-        Lingkaran C1 = new Lingkaran(r);
+        Circle C1 = new Circle(r);
         double Keliling = C1.hitungKeliling();
         System.out.println("Keliling Lingkaran = "+Keliling);
     }
