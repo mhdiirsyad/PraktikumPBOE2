@@ -1,3 +1,9 @@
+/*Nama file	: Dosen.Java
+* Deskripsi	: atribut dan metode untuk mengelola data dosen (subclass dari Pegawai)
+* Pembuat	: Muhammad Irfan Irsyad / 24060123130085
+* Tanggal	: 16-03-2025
+*/
+
 public class Dosen extends Pegawai {
     /*ATRIBUT */
     protected String fakultas;

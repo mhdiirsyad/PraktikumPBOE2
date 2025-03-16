@@ -1,5 +1,13 @@
+/*Nama file	: DosenTamu.java
+* Deskripsi	: atribut dan metode untuk mengelola data dosen tamu (subclass dari Dosen)
+* Pembuat	: Muhammad Irfan Irsyad / 24060123130085
+* Tanggal	: 16-03-2025
+*/
+
+//Mengimport library
 import java.time.LocalDate;
 import java.time.Period;
+
 public class DosenTamu extends Dosen {
     /*ATRIBUT */
     private String NIDK;

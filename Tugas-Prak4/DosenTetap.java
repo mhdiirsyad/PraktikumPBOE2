@@ -1,5 +1,10 @@
-import java.time.LocalDate;
+/*Nama file	: DosenTetap.java
+* Deskripsi	: atribut dan metode untuk mengelola data dosen tetap (subclass dari Dosen)
+* Pembuat	: Muhammad Irfan Irsyad / 24060123130085
+* Tanggal	: 16-03-2025
+*/
 
+import java.time.LocalDate; //Mengimport library LocalDate
 public class DosenTetap extends Dosen {
     /*ATRIBUT */
     private String NIDN;

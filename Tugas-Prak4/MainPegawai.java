@@ -1,3 +1,9 @@
+/*Nama file	: MainPegawai.java
+* Deskripsi	: program utama untuk menampilkan info pegawai
+* Pembuat	: Muhammad Irfan Irsyad / 24060123130085
+* Tanggal	: 16-03-2025
+*/
+
 public class MainPegawai{
     public static void main(String[] args) {
         //Membuat objek DosenTetap

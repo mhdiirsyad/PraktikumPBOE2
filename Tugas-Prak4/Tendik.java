@@ -1,5 +1,10 @@
-import java.time.LocalDate;
+/*Nama file	: Tendik.java
+* Deskripsi	: atribut dan metode untuk mengelola data tenaga kependidikan (subclass dari Pegawai)
+* Pembuat	: Muhammad Irfan Irsyad / 24060123130085
+* Tanggal	: 16-03-2025
+*/
 
+import java.time.LocalDate; //Mengimport library LocalDate
 public class Tendik extends Pegawai {
     /*ATRIBUT */
     private String bidang;

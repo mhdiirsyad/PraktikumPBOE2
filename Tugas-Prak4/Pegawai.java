@@ -1,3 +1,10 @@
+/*Nama file	: Pegawai.java
+* Deskripsi	: atribut dan metode untuk mengelola data pegawai
+* Pembuat	: Muhammad Irfan Irsyad / 24060123130085
+* Tanggal	: 16-03-2025
+*/
+
+//Mengimport library
 import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.time.Period;
