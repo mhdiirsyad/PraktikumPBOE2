@@ -6,7 +6,7 @@
 
 public class Lingkaran extends BangunDatar {
     /*ATRIBUT */
-    public double jari;
+    protected double jari;
 
     /*METODE */
     //Konstruktor
