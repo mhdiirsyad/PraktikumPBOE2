@@ -2,7 +2,6 @@ import java.time.LocalDate;
 
 public class Tendik extends Pegawai {
     /*ATRIBUT */
-    private String jabatan;
     private String bidang;
 
     /*METODE */
@@ -10,27 +9,15 @@ public class Tendik extends Pegawai {
     public Tendik() {
     }
 
-    public Tendik(String NIP, String nama, String tanggalLahir, String TMT, double gajiPokok, String jabatan, String bidang) {
-        super(NIP, nama, tanggalLahir, TMT, gajiPokok);
-        this.jabatan = jabatan;
+    public Tendik(String NIP, String nama, String tanggalLahir, String TMT, double gajiPokok, String bidang) {
+        super(NIP, nama, tanggalLahir, TMT, gajiPokok, "Tenaga Kependidikan (Tendik)");
         this.bidang = bidang;
     }
 
     //Setter
-    //Mengeset jabatan tendik
-    public void setJabatan(String jabatan) {
-        this.jabatan = jabatan;
-    }
-
     //Mengeset bidang tendik
     public void setBidang(String bidang) {
         this.bidang = bidang;
-    }
-
-    //Getter
-    //Mengembalikan jabatan tendik
-    public String getJabatan() {
-        return jabatan;
     }
 
     //Mengembalikan bidang tendik
@@ -56,7 +43,6 @@ public class Tendik extends Pegawai {
     public void printInfo(){
         System.out.println("======== Tendik ========");
         super.printInfo();
-        System.out.println("Jabatan \t\t : " + this.jabatan);
         System.out.println("Bidang \t\t\t : " + this.bidang);
         System.out.println("BUP \t\t\t : " + this.getBUP());
         System.out.println("Tunjangan \t\t : 1% x " + this.getMasaKerja().getYears() + " x " + formatRupiah.format(getGajiPokok()) + " = " + formatRupiah.format(this.getTunjangan()));

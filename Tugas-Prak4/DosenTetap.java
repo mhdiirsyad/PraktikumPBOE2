@@ -9,8 +9,8 @@ public class DosenTetap extends Dosen {
     public DosenTetap() {
     }
 
-    public DosenTetap(String NIP, String nama, String tanggalLahir, String TMT, double gajiPokok, String jabatan, String fakultas, String NIDN) {
-        super(NIP, nama, tanggalLahir, TMT, gajiPokok, jabatan, fakultas);
+    public DosenTetap(String NIP, String nama, String tanggalLahir, String TMT, double gajiPokok, String fakultas, String NIDN) {
+        super(NIP, nama, tanggalLahir, TMT, gajiPokok, "Dosen Tetap", fakultas);
         this.NIDN = NIDN;
     }
 

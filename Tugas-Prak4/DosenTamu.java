@@ -1,18 +1,19 @@
 import java.time.LocalDate;
+import java.time.Period;
 public class DosenTamu extends Dosen {
     /*ATRIBUT */
     private String NIDK;
-    private int masaKontrak;
+    private String tglAkhirKontrak;
 
     /*METODE */
     //Konstruktor
     public DosenTamu() {
     }
 
-    public DosenTamu(String NIP, String nama, String tanggalLahir, String TMT, double gajiPokok, String jabatan, String fakultas, String NIDK, int masaKontrak) {
-        super(NIP, nama, tanggalLahir, TMT, gajiPokok, jabatan, fakultas);
+    public DosenTamu(String NIP, String nama, String tanggalLahir, String TMT, double gajiPokok, String fakultas, String NIDK, String tglAkhirKontrak) {
+        super(NIP, nama, tanggalLahir, TMT, gajiPokok, "Dosen Tamu", fakultas);
         this.NIDK = NIDK;
-        this.masaKontrak = masaKontrak;
+        this.tglAkhirKontrak = tglAkhirKontrak;
     }
 
     //Mengeset NIDK dosen tamu
@@ -25,20 +26,21 @@ public class DosenTamu extends Dosen {
         return NIDK;
     }
 
-    //Mengeset masa kontrak kerja
-    public void setMasaKontrak(int masaKontrak) {
-        this.masaKontrak = masaKontrak;
+    //Mengeset tanggal akhir kontrak
+    public void setTglAkhirKontrak(String tglAkhirKontrak) {
+        this.tglAkhirKontrak = tglAkhirKontrak;
     }
 
-    //Mengembalikan Masa kontrak kerja
+    //Mengembalikan tanggal akhir kontrak
+    public String getTglAkhirKontrak() {
+        return tglAkhirKontrak;
+    }
+
+    //Mengembalikan masa kontrak
     public int getMasaKontrak() {
-        return masaKontrak;
-    }
-
-    //Mengembalikan tanggal berakhir kontrak
-    public String getEndKontrak() {
-        LocalDate endKontrak = LocalDate.now().plusMonths(masaKontrak);
-        return endKontrak.format(formatter);
+        LocalDate dateAkhir = LocalDate.parse(this.tglAkhirKontrak, formatter);
+        Period masaKontrak = Period.between(LocalDate.now(), dateAkhir);
+        return masaKontrak.getMonths();
     }
 
     //Menampilkan tunjangan dosen tamu
@@ -53,8 +55,8 @@ public class DosenTamu extends Dosen {
         System.out.println("======== Dosen Tamu ========");
         super.printInfo();
         System.out.println("NIDK \t\t\t : " + this.NIDK);
-        System.out.println("Masa Kontrak \t\t : " + this.masaKontrak + " bulan");
-        System.out.println("Tanggal Berakhir Kontrak : " + this.getEndKontrak());
+        System.out.println("Masa Kontrak \t\t : " + this.getMasaKontrak() + " bulan");
+        System.out.println("Tanggal Berakhir Kontrak : " + this.tglAkhirKontrak);
         System.out.println("Tunjangan \t\t : 2,5% x " + formatRupiah.format(getGajiPokok()) + " = " + formatRupiah.format(this.getTunjangan()));
     }
 
