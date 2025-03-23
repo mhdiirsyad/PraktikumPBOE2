@@ -62,4 +62,5 @@ public class Petani extends Manusia implements Pajak{
         System.out.println("Masa Kerja\t: "+hitungMasaKerja()+" Bulan");
         System.out.println("Pajak\t\t: "+rupiah.format(hitungPajak()));
     }
+    //end class petani
 }
