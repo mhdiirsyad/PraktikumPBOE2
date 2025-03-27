@@ -28,5 +28,6 @@ public class RuangDepartemen extends RuangFSM{
         System.out.println("Jumlah Kursi\t: "+jumlahKursi);
         System.out.println("Jumlah Lemari\t: "+jumlahLemari);
         System.out.println("Departemen\t: "+departemen.getNamaDepartemen());
+        System.out.println("Kebersihan: "+hitungBiayaKebersihan());
     }
 }

@@ -30,5 +30,6 @@ public class RuangDosen extends RuangFSM{
         System.out.println("Jumlah Meja\t: "+jumlahMeja);
         System.out.println("Jumlah Kursi\t: "+jumlahKursi);
         System.out.println("Departemen\t: "+departemen.getNamaDepartemen());
+        System.out.println("Kebersihan: "+hitungBiayaKebersihan());
     }
 }
