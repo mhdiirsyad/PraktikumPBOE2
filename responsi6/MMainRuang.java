@@ -27,10 +27,12 @@ public class MMainRuang {
         RuangDepartemen IF = new RuangDepartemen("IF1", 6, 6, 2, 2, 2, 2, Informatika);
         IF.printRuang();
         RuangDepartemen.getCounterRuangDepartement();
+        System.out.println();
 
         //Object Ruang Dosen
         RuangDosen A = new RuangDosen("A1", 3, 3, 1, "A", 1, 1, Informatika);
         A.printRuang();
         RuangDosen.getCounterRuangDosen();
+        System.out.println();
     }
 }
