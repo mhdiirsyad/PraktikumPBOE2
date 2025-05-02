@@ -7,7 +7,7 @@
 public class MBangundatar {
     public static void main(String[] args) {
         /*Objek Bangun datar */
-        BangunDatar A = new BangunDatar();
+        BangunDatar2 A = new BangunDatar2();
         A.setJmlSisi(5);
         A.setWarna("Rainbow");
         A.setBorder("Putih");
@@ -27,7 +27,7 @@ public class MBangundatar {
         System.out.println("Jumlah objek bangundatar : "+Persegi.countBangunDatar);
 
         /*Objek Lingkaran */
-        Lingkaran C1 = new Lingkaran(14, "Peach", "Ungu");
+        Lingkaran3 C1 = new Lingkaran3(14, "Peach", "Ungu");
         System.out.println("Info Lingkaran C1");
         C1.printInfo();
         System.out.println("Luas Lingkaran\t: "+C1.getLuas());

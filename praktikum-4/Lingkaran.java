@@ -4,7 +4,7 @@
 * Tanggal	: 13-03-2025
 */
 
-public class Lingkaran extends BangunDatar {
+public class Lingkaran extends BangunDatar2 {
     /*ATRIBUT */
     protected double jari;
 

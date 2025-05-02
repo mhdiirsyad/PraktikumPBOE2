@@ -4,7 +4,7 @@
 * Tanggal	: 13-03-2025
 */
 
-public class Persegi extends BangunDatar {
+public class Persegi extends BangunDatar2 {
     /*ATRIBUT */
     private double sisi;
 
