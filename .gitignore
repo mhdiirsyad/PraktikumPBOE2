@@ -1,2 +1,10 @@
 /Praktikum-8/LatihanPBOE2/target/
 /Praktikum-8/Tugas/target/
+mysql-connector-java-8.0.33.jar
+Praktikum-10\src\mysql-connector-j-8.0.33.jar
+
+*.class
+bin
+lib
+.vscode
+*.zip
