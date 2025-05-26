@@ -8,3 +8,13 @@ bin
 lib
 .vscode
 *.zip
+/GUISimple/target/
+/GUIIntermediate/target/
+/GUISaveList/target/
+/GUIComplex/target/
+/jdbc_mhs_service/nbproject/private/
+/jdbc.mhs.service/nbproject/private/
+/jdbc_mhs_service/build/
+/jdbc_mhs_service_gui/nbproject/private/
+/jdbc_mhs_service_gui/build/
+Praktikum-8
