@@ -2,6 +2,8 @@
 /Praktikum-8/Tugas/target/
 mysql-connector-java-8.0.33.jar
 Praktikum-10\src\mysql-connector-j-8.0.33.jar
+jcalendar-1.4.jar
+ToDoList
 
 *.class
 bin
@@ -18,3 +20,6 @@ lib
 /jdbc_mhs_service_gui/nbproject/private/
 /jdbc_mhs_service_gui/build/
 Praktikum-8
+/ToDoList/nbproject/private/
+/ToDoList/build/
+/ToDoList/dist/
